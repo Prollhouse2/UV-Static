@@ -20,7 +20,14 @@
             <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
 <button id="uv-address" type="text" class="form__input">Search Google or type an URL</button>
           </form>
-         
+         <div id="uv-address">
+  <script>
+    window.onload = function() {
+      window.location.href = "https://www.google.com/search?q=%s"; // Replace with your desired URL
+    };
+  </script>
+</div>
+
           <div class="desc left-margin">
             <p id="uv-error"></p>
             <pre id="uv-error-code"></pre>
