@@ -17,12 +17,10 @@
          <h1>Search the Web</h1>
 
          <form id="uv-form"">
-            <button id="uv-address" type="text"> 
-
-  <button id="uv-address" href="https://www.google.com/search?q=%s">Red</button>
-               <button id="uv-address" onclick="window.location.href='https://www.google.com/search?q=%s'">Red</button>
-
-         </form>
+            <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
+<button id="uv-address" type="text" class="form__input">Search Google or type an URL</button>
+          </form>
+         
           <div class="desc left-margin">
             <p id="uv-error"></p>
             <pre id="uv-error-code"></pre>
