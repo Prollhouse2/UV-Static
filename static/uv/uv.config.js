@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: '/static/tiw/',
-    bare:'https://wisp.mercurywork.shop',
+    bare:'http://185.111.156.202:8000',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/static/uv/uv.handler.js',
